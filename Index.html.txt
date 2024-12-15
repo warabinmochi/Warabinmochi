@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的心灵花园</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f7f0e5; /* 你可以尝试修改这个背景色 */
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            color: #333;
+        }
+        header {
+            background: #ffe1b3; /* 头部背景色，可根据喜好修改 */
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #c24e00; /* 标题颜色可随心改变 */
+        }
+        nav {
+            background: #f5dab1; 
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #663300;
+        }
+        main {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+        }
+        main h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ffe1b3;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #654321;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的心灵花园</h1>
+    </header>
+    
+    <nav>
+        <!-- 你可以在这里添加不同页面的链接，比如“心情日记”、“励志语录”、“关于我” -->
+        <a href="#">心情日记</a>
+        <a href="#">关于我</a>
+        <a href="#">治愈语录</a>
+    </nav>
+
+    <main>
+        <h2>关于这个空间</h2>
+        <p>这里是我专属的小天地。我可以在这分享我的心情、记录我的情绪变化，或将脑海中萦绕的想法化为文字。当我觉得压力沉重时，我会来这里倾诉。当我感到平静和喜悦时，我也会在这里留下属于自己的印记。</p>
+
+        <h2>今天的心情记录</h2>
+        <p>（你可以在这里写下今天的感受。比如：<br>
+        今天有点疲惫，但我愿意给自己一些喘息的空间，慢慢理清心中的思绪。尝试用温暖的方式对待自己，把内心的压力看成一朵需要浇灌的花朵，为它提供温柔的关怀，而不是责备。）</p>
+        
+        <h2>给自己的温柔提示</h2>
+        <p>记住，每个情绪的出现，都有它的意义。也许，它是你内在的一种呼唤，希望你能停下来倾听内心的声音。这里没有评判，只有理解和接纳。</p>
+    </main>
+
+    <footer>
+        <p>© 2024 我的心灵花园 | 这里是你的安全空间</p>
+    </footer>
+</body>
+</html>
